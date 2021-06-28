@@ -123,7 +123,7 @@ blockquote {
   margin: 1rem 0 1rem 2rem;
   font-family: '思源黑体 Medium', 'Roboto Slab', 'Times New Roman', serif;
   color: #827676;
-  background:none !important;
+  background:transparent;
   border-color:none !important;
 }
 
