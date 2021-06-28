@@ -55,6 +55,13 @@
   src: local('Fira Mono Bold'), url('./ursine/FiraMono-Bold.ttf') format('ttf');
 }
 
+@font-face {
+  font-family: 'SourceHanSans';
+  font-style: normal;
+  font-weight: bold;
+  src: local('SourceHanSans-Regular'), url('./ursine/SourceHanSans-Regular') format('otf');
+}
+
 /* CodeMirror Dracula theme */
 :root {
   --bg-color: #fbfbfb;
@@ -97,7 +104,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: '思源黑体 Medium', 'Roboto Slab', 'Times New Roman', serif;
+  font-family: 'SourceHanSans', 'Roboto Slab', 'Times New Roman', serif;
 }
 
 p {
@@ -139,7 +146,7 @@ blockquote::before {
 code,
 .md-fences,
 tt {
-  font-family: '思源黑体 Medium', 'Fira Mono', 'Cousine', 'Consolas', monospace;
+  font-family: 'SourceHanSans', 'Fira Mono', 'Cousine', 'Consolas', monospace;
   font-size: 1rem;
 }
 
@@ -152,7 +159,7 @@ code {
 }
 
 kbd {
-  font-family: '思源黑体 Medium', 'Fira Mono', 'Cousine', 'Consolas', monospace;
+  font-family: 'SourceHanSans', 'Fira Mono', 'Cousine', 'Consolas', monospace;
   font-size: 0.875rem;
   border: 2px solid #0000001a;
   background: #f7f7f7;
@@ -450,7 +457,7 @@ th {
 }
 
 #write .md-toc-h1 {
-  font-family: '思源黑体 Medium', 'Roboto Slab', 'Times New Roman', serif;
+  font-family: 'SourceHanSans', 'Roboto Slab', 'Times New Roman', serif;
   font-size: 1.3rem;
 }
 
@@ -459,7 +466,7 @@ th {
 }
 
 #write .md-footnote {
-  font-family: '思源黑体 Medium', 'Roboto Slab', 'Times New Roman', serif;
+  font-family: 'SourceHanSans', 'Roboto Slab', 'Times New Roman', serif;
   font-size: 0.8em;
   border: 1px solid #ddd;
   padding: 0 4px;
@@ -756,12 +763,12 @@ th {
 }
 
 #typora-sidebar .sidebar-tabs {
-  font-family: '思源黑体 Medium', 'Roboto Slab', 'Times New Roman', serif;
+  font-family: 'SourceHanSans', 'Roboto Slab', 'Times New Roman', serif;
   border-bottom: 1px solid #19191c;
 }
 
 #typora-sidebar .file-list-item-file-name {
-  font-family: '思源黑体 Medium', 'Roboto Slab', 'Times New Roman', serif;
+  font-family: 'SourceHanSans', 'Roboto Slab', 'Times New Roman', serif;
   font-size: 1.2em;
 }
 
@@ -779,7 +786,7 @@ th {
 
 #typora-sidebar .file-list-item-summary,
 #typora-sidebar .ty-search-item-line {
-  font-family: '思源黑体 Medium', 'Open Sans', 'Lato', sans-serif;
+  font-family: 'SourceHanSans', 'Open Sans', 'Lato', sans-serif;
 }
 
 #typora-sidebar .ty-file-search-match-text,
@@ -793,7 +800,7 @@ th {
 }
 
 #typora-sidebar #outline-content .outline-h1 > .outline-item {
-  font-family: '思源黑体 Medium', 'Roboto Slab', 'Times New Roman', serif;
+  font-family: 'SourceHanSans', 'Roboto Slab', 'Times New Roman', serif;
 }
 
 #typora-sidebar #outline-content .outline-h1 > .outline-item {
@@ -826,7 +833,7 @@ th {
 
 #typora-sidebar .outline-title-wrapper,
 #typora-sidebar .outline-item-wrapper.outline-h1 > .outline-item {
-  font-family: '思源黑体 Medium', 'Roboto Slab', 'Times New Roman', serif;
+  font-family: 'SourceHanSans', 'Roboto Slab', 'Times New Roman', serif;
 }
 
 #typora-sidebar .file-library-node,
