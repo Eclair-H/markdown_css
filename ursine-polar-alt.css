@@ -124,7 +124,7 @@ blockquote {
   font-family: '思源黑体 Medium', 'Roboto Slab', 'Times New Roman', serif;
   color: #827676;
   background:transparent;
-  border-color:none !important;
+  border-color:transparent !important;
 }
 
 blockquote::before {
